@@ -1,0 +1,84 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin: 2em 10em;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 0.7em;
+    color: white;
+    padding: 0 3px;
+    margin: 15px 3px;
+    border: solid 1px white;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 200;
+}
+}
+.background-img {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+#page-contact {
+    background-color: #B0C4DE;
+}
+#page-contact>.container-fluid {
+    margin-top: 10%;
+    margin-left: 12%;
+}
+2 3 4 $name $_POST['name'];
+$email $_POST['email'];
+$message $_POST['message'];
+$human intval($_POST['human']);
+1 2 3 4 5 $from 'Demo Contact Form';
+$to 'example@domain.com';
+$subject 'Message from Contact Demo ';
+$body "From: $name\n E-Mail: $email\n Message:\n $message";
+1 2 3 if (!$_POST['name']) {
+    $errName 'Please enter your name';
+}
+1 2 3 if (!$_POST['email'] || !filter_var($_POST['email'],
+FILTER_VALIDATE_EMAIL)) {
+    $errEmail 'Please enter a valid email address';
+}
+1 2 3 if ($human ! 5) {
+    $errHuman 'Your anti-spam is incorrect';
+}
+<?php echo "<p class='text-danger'>$errName</p>";
+?> #map-canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+}
+#Gallary #twocolumnlayout img:hover {
+    opacity: 0.3;
+    -webkit-filter: blur(3px);
+    /* Prefixed CSS3 blur filters */
+    
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+    /* Safari */
+}
+#Gallary #twocolumnlayout img {
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    /* Safari */
+}
+.bg-orange {
+    background-color: #DCDCDC;
+    padding: 3em;
+}
+.bg-brown {
+    background-color: #C0C0C0;
+    padding: 3em;
+}
+.bg-ivory {
+    background-color: #696969;
+    padding: 3ßem;
+}
